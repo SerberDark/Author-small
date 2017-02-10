@@ -1,0 +1,48 @@
+@import "custom-variables";
+
+/*General settings start*/
+.container {
+ width: $desctopContainerWidth;
+ padding: 0 10px;
+ margin: 0 auto;
+}
+a.btn {
+	font-weight: 600;
+	font-size: 26px;
+	color: #fff;
+	border: 3px solid #fff;
+	border-radius: 4px;
+  padding: 17px 34px;
+	display: inline-block;
+	text-align: center;
+}
+.form-btn {
+	font-size: 22px;
+	color: #fff;
+	border-radius: 3px;
+  padding: 17px 60px;
+	display: inline-block;
+	text-align: center;
+	background: #49cbcd;
+}
+.row {
+	clear: both;
+	overflow: hidden;
+	margin: 0 -10px;
+}
+.col-25 {
+  width: 25%;
+  float: left;
+  padding: 0 15px;
+}
+.col-33 {
+  width: 33.33333%;
+  float: left;
+  padding: 0 15px;
+}
+.col-50 {
+	width: 50%;
+  float: left;
+  padding: 0 10px;
+}
+/*General settings end*/
