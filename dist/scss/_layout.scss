@@ -5,6 +5,12 @@
  width: $desctopContainerWidth;
  padding: 0 10px;
  margin: 0 auto;
+ @media (max-width: 1186px) {
+		width: 1007px;
+	}
+	@media (max-width: 1023px) {
+		width: $mobileContainerWidth;
+	}
 }
 a.btn {
 	font-weight: 600;
@@ -15,6 +21,13 @@ a.btn {
   padding: 17px 34px;
 	display: inline-block;
 	text-align: center;
+	@media (max-width: 639px) {
+		font-size: 17px;
+    padding: 10px 25px;
+	}
+	@media (max-width: 479px) {
+		font-size: 11px;
+	}
 }
 .form-btn {
 	font-size: 22px;
@@ -33,16 +46,29 @@ a.btn {
 .col-25 {
   width: 25%;
   float: left;
-  padding: 0 15px;
-}
+  padding: 0 10px;
+  @media (max-width: 960px) {
+  	width: 50%;
+  	padding-bottom: 40px;
+  }
+  @media (max-width: 639px) {
+    width: 100%;
+	}
+}	
 .col-33 {
   width: 33.33333%;
   float: left;
-  padding: 0 15px;
+  padding: 0 10px;
+  @media (max-width: 639px) {
+  	width: 100%;
+  }
 }
 .col-50 {
 	width: 50%;
   float: left;
   padding: 0 10px;
+  @media (max-width: 639px) {
+  	width: 100%;
+  }
 }
 /*General settings end*/
