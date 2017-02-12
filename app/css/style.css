@@ -166,6 +166,10 @@ input, textarea, input:before, textarea:before, input:after, textarea:after {
   background: #485460;
 }
 
+.hover {
+  background: #49cbcd;
+}
+
 .slicknav_menu {
   display: none;
 }
@@ -754,7 +758,7 @@ a.btn {
   border: transparent;
 }
 
-.main .sentence .sentence-holder .button-holder .btn:hover ~ .main .sentence .sentence-holder .button-holder .btn.toolkit-holder {
+.main .sentence .sentence-holder .button-holder .btn:hover {
   background: #49cbcd;
 }
 

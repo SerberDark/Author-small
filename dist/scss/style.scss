@@ -214,8 +214,8 @@
 					font-weight: 600;
 					padding: 9px 45px 11px;
 					border: transparent;
-					&:hover ~ &.toolkit-holder {
-						background: #49cbcd;
+					&:hover {
+						background: #49cbcd; 
 					}
 				}
 			}
